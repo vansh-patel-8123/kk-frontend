@@ -1,0 +1,22 @@
+NPM -> node package manager
+NPM includes all modules of JS
+
+npm -v -> NPM version
+package.json -> most useful file because it's includes all dependencies
+dependencies -> modules required for running application
+
+npm init ->   new application using initiation
+npm install lodash --save -  > install library and add to package.json
+--save -> useful for adding dependencies to package.json
+npm uninstall lodash --save
+npm remove lodash --save
+
+versioning
+8.2.6
+8-> major version, changes break the API
+2-> New features, does not break the API
+6-> bug fixes
+
+npm root -> find global path
+npm install live-server -g
+npm list -> listing all modules
