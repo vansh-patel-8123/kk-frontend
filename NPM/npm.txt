@@ -1,15 +1,29 @@
-NPM -> node package manager
-NPM includes all modules of JS
+NPM -> Node package manegment
 
-npm -v -> NPM version
-package.json -> most useful file because it's includes all dependencies
-dependencies -> modules required for running application
+npm -v -> version check
+npm --version
 
-npm init ->   new application using initiation
-npm install lodash --save -  > install library and add to package.json
---save -> useful for adding dependencies to package.json
+package.json 
+    -> information of app 
+    -> list of dependencies (name & version)
+
+dependencies -> files which use for running application
+
+npm init -> initiation of new application
+
+npm set init-author-name "in.techshark.vanshpatel"
+    -> use for config default one
+npm config delete init-author-name
+    -> delete defalut one
+
+npm install <package-name>  -> only dowload dependencies not init in package.json
+npm install <package-name> --save -> add dependencies in package.json
 npm uninstall lodash --save
 npm remove lodash --save
+
+dev dependencies -> useful for developement not production
+--save-dev -> save dev dependencies
+npm install --production -> only install dev dependencies
 
 versioning
 8.2.6
@@ -17,6 +31,9 @@ versioning
 2-> New features, does not break the API
 6-> bug fixes
 
-npm root -> find global path
-npm install live-server -g
+-g -> install module globally
+npm root -g -> check the global path
 npm list -> listing all modules
+
+"start": "node index.js" : npm start => node index.js
+"server": "node live-server" : npm server => node live-server
