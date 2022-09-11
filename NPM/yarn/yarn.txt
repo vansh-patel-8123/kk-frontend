@@ -1,0 +1,18 @@
+yarn is alternative of NPM
+
+-> Much faster than NPM
+-> mostly all command like as NPM
+
+yarn help -> help 
+yarn init -> initilization of yarn package
+
+yarn add lodash
+yarn remove lodash
+ 
+yarn global add lodash
+yarn global remove lodash
+
+in yarn we must have yarn.lock file 
+yarn check -> checking file
+yarn import -> create yarn.lock file automatically
+   
